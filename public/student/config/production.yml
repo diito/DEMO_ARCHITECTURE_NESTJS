@@ -1,0 +1,9 @@
+http:
+  host: 0.0.0.0
+  port: 1002
+tcp: 
+  host: 0.0.0.0
+  port: 10002
+swagger:
+  host: 0.0.0.0:1002
+mongouri: mongodb+srv://ADMIN:fs2912fs@cluster0-gl0yj.mongodb.net/manage?retryWrites=true&w=majority

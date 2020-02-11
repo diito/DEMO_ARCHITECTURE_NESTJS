@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "declaration": true,
+      "noImplicitAny": false,
+      "removeComments": true,
+      "noLib": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "esnext",
+      "sourceMap": true,
+      "allowJs": false,
+      "outDir": "./dist",
+      "preserveSymlinks": false
+    },
+    "include": [
+      "src/**/*",
+      "e2e/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

@@ -1,0 +1,35 @@
+{
+  "name": "web-service-authentication",
+  "version": "0.0.1",
+  "description": ".:. Welcome to Authentication service for all operation .:.",
+  "author": "fernando.zavaleta",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "@enterprise/client-administrator": "0.0.2",
+    "@enterprise/client-mailing": "0.0.1",
+    "@enterprise/client-security": "0.0.4",
+    "@enterprise/client-student": "0.0.3",
+    "@enterprise/config": "0.0.2",
+    "@enterprise/setup": "0.0.2",
+    "@nestjs/common": "6.10.14",
+    "@nestjs/core": "6.10.14",
+    "@nestjs/microservices": "6.10.14",
+    "@nestjs/swagger": "^3.1.0",
+    "reflect-metadata": "0.1.13",
+    "rimraf": "3.0.0",
+    "rxjs": "6.5.4",
+    "ts-node": "8.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.25",
+    "typescript": "3.7.5"
+  }
+}

@@ -1,0 +1,16 @@
+http:
+  host: 0.0.0.0
+  port: 1001
+tcp: 
+  host: 0.0.0.0
+  port: 10001
+swagger:
+  host: 0.0.0.0:1001
+mongouri: mongodb://wabu:wabu123@ec2-35-165-211-97.us-west-2.compute.amazonaws.com:27017/Wabu-Development
+client:
+  student:
+    host: 0.0.0.0
+    port: 10002
+  security:
+    host: 0.0.0.0
+    port: 10003

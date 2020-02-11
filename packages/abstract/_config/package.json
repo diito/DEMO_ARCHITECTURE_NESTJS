@@ -1,0 +1,27 @@
+{
+  "name": "@enterprise/config",
+  "version": "0.0.3",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "push": "npm run build && npm publish"
+  },
+  "keywords": [],
+  "author": "enterprise",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "6.10.14",
+    "@nestjs/core": "6.10.14",
+    "config": "3.2.5",
+    "dotenv": "8.2.0",
+    "js-yaml": "3.12.0",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "6.5.4"
+  },
+  "devDependencies": {
+    "@types/config": "0.0.36",
+    "@types/dotenv": "8.2.0",
+    "@types/node": "13.1.8",
+    "typescript": "3.6.3"
+  }
+}
